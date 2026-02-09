@@ -23,12 +23,14 @@ const RightPanel = ({ artifacts }) => {
                         <span className="app-label">見積書<br />作成</span>
                     </button>
 
-                    <button className="app-card orange">
-                        <div className="app-icon-wrapper">
-                            <Mail className="app-icon" />
-                        </div>
-                        <span className="app-label">メール<br />一括送信</span>
-                    </button>
+                    <a href="https://mail-helper.agentify.jp/" target="_blank" rel="noopener noreferrer" className="app-card-link">
+                        <button className="app-card orange">
+                            <div className="app-icon-wrapper">
+                                <Mail className="app-icon" />
+                            </div>
+                            <span className="app-label">メール<br />一括送信</span>
+                        </button>
+                    </a>
 
                     <button className="app-card purple">
                         <div className="app-icon-wrapper">

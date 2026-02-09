@@ -25,6 +25,12 @@
     gap: 1rem;
 }
 
+.app-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .app-card {
     display: flex;
     flex-direction: column;
