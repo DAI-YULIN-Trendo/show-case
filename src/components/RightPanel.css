@@ -45,6 +45,8 @@
     cursor: pointer;
     text-align: center;
     height: 140px;
+    width: 100%;
+    box-sizing: border-box;
     /* Fixed height for consistency */
 }
 
