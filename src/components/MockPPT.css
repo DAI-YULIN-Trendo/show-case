@@ -1,0 +1,6 @@
+/* MockPPT.css */
+/* Most styling is handled via utility classes in the JS, 
+   but we can add specific print-like styles here if needed. */
+.shadow-text {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}

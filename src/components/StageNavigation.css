@@ -1,0 +1,42 @@
+.stage-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.stage-nav-pill {
+    display: flex;
+    background-color: #F1F5F9;
+    padding: 0.25rem;
+    border-radius: 9999px;
+    gap: 0.25rem;
+}
+
+.stage-nav-button {
+    padding: 0.375rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transition: all 0.2s;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.stage-nav-button:hover {
+    color: var(--text-primary);
+}
+
+.stage-nav-button.active {
+    background-color: white;
+    color: var(--text-primary);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
